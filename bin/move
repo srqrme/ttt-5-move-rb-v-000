@@ -8,7 +8,8 @@ puts "   |   |   "
 puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-puts board
+def display_board(board)
+end
 
 puts "Where would you like to go?"
 input = gets.strip
